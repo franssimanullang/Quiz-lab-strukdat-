@@ -1,2 +1,6 @@
 # Quiz-lab-strukdat-
-tugas quiz strukdat yang banyak banget, nooooo . im dead T_T
+Nama : Frans Eikel Martogi Simanullang 
+NIM : 251401134
+Lab 4
+
+
