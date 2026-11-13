@@ -14,5 +14,8 @@ Program ini menggunakan representasi Adjacency Matrix dua dimensi berukuran $6 \
 
 <br>Alur Program<br>
 Alur program dimulai dengan menginisialisasi matriks dengan bobot jarak sesuai tabel, menampilkan representasi matriks graf ke layar, menjalankan penelusuran BFS dan DFS dari titik awal yang ditentukan, lalu meminta masukan vertex awal dan tujuan secara dinamis dari pengguna untuk diproses oleh algoritma Dijkstra guna menampilkan total jarak terpendek beserta rute lengkap yang harus dilalui.
-
-
+<br>
+<br>Penjelasan Soal nomor 4<br>
+Program ini mengimplementasikan struktur data Hash Table berukuran 20 dengan metode penanganan kolisi Double Hashing menggunakan fungsi Hash1(key) = key % 20 dan Hash2(key) = 19 - (key % 19) untuk mengelola data mahasiswa berbasis NIM sebagai key dan nama sebagai value, lengkap dengan fitur operasi Insert, Search, Remove, dan Display untuk memantau integritas data di dalam tabel secara transparan.
+<br>
+<br>Alur program dimulai dengan menginisialisasi tabel hash berukuran tetap dengan status slot kosong, dilanjutkan dengan memasukkan 15 data mahasiswa secara berurutan di mana setiap penambahan akan menghitung indeks hash pertama dan secara otomatis melakukan pergeseran lompatan sekunder jika terjadi tabrakan indeks, lalu program mengeksekusi fitur pencarian data, penghapusan data dengan menandai flag isDeleted, dan diakhiri dengan menampilkan status akhir seluruh isi tabel melalui fungsi display.
